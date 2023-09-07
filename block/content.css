@@ -1,0 +1,435 @@
+/* awal section description */
+.description {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .two-columns {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .two-columns__brief {
+    width: 175px;
+    color: #2f80ed;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: normal;
+    margin-top: 0;
+  }
+  
+  .two-columns__paragraph{
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 30px 0 0;
+  }
+  
+  .two-columns__paragraph:first-child {
+    margin-top: 0;
+  }
+  
+  .two-columns__span-accent {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  /* akhir section description */
+  
+  /* awal section techniques */
+  .techniques {
+    margin: 0 auto;
+    padding-top: 100px;
+    position: relative;
+  }
+  
+  .section-title {
+    line-height: 1.15;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .section-subtitle {
+    text-align: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    width: 60%;
+    margin: 20px auto;
+    margin-bottom: 0;
+  }
+  
+  .cards{
+    width: 920px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+  }
+  
+  .cards__item {
+    width: 238px;
+  }
+  
+  .cards__image {
+    width: 160px;
+    height: 160px;
+    margin: 60px 40px 43px 40px;
+    clip-path: circle();
+  }
+  
+  .cards__title {
+    margin: 0;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cards__description {
+    margin: 16px 0 0 0;
+    text-align: center;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  /* akhir section techniques */
+  
+  /* awal section video */
+  .video {
+    margin: 0 auto;
+    padding-top: 100px;
+    position: relative;
+    height: 450px;
+  }
+  
+  .video__iframes {
+    max-width: 1100px;
+    height: 316px;
+    list-style-type: none;
+    padding: 0;
+    margin: 50px auto 0;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+  }
+  
+  .video__iframe {
+    width: 515px;
+    height: 316px;
+  }
+  /* akhir section video */
+  
+  /* awal section oakley */
+  .oakley {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 160px 0 80px;
+  }
+  
+  .two-columns__main-text {
+    margin: 0;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    max-width: 80%;
+    min-width: 784px;
+  }
+  /* akhir section oakley */
+  
+  /* awal section feynman */
+  .feynman {
+    height: 790px;
+    background-color: #f2f2f2;
+    display: flex;
+    position: relative;
+  }
+  
+  .feynman__image {
+    position: absolute;
+    height: 637px;
+    width: 867px;
+    bottom: 0;
+    z-index: 0;
+  }
+  
+  .feynman__link {
+    color: #2f80ed;
+    position: absolute;
+    right: 48px;
+    top: 50%;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  .feynman__content {
+    width: 100%;
+    z-index: 1;
+    margin-top: 100px;
+  }
+  
+  .feynman__title {
+    width: 775px;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .feynman__subtitle {
+    margin-top: 70px;
+    margin-bottom: 0;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+  }
+  /* akhir section feynman */
+  
+  /* awal section digit */
+  .digits {
+    margin: 100px auto;
+    position: relative;
+  }
+  
+  .digits__title {
+    width: 60%;
+    text-align: center;
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  
+  .digits__subtitle {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    width: 60%;
+    text-align: center;
+    margin: 20px auto 0;
+  }
+  
+  .table-digits {
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    list-style-type: none;
+    margin: 60px auto 0;
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  .table-digits__cell_theme_light {
+    width: 250px;
+  }
+  
+  .table-digits__heading_theme_light {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .table-digits__text_theme_light {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 20px auto 0;
+  }
+  /* akhir section digit */
+  
+  /* awal section khan */
+  .khan {
+    margin: 100px auto 0;
+    background-color: #f2f2f2;
+    padding-top: 105px;
+    position: relative;
+    overflow: hidden;
+    height: 1080px;
+  }
+  
+  .khan__container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .khan__author {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .khan__title {
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .khan__quote {
+    margin-top: 50px;
+    width: 790px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  .khan__quote-author {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 36px auto 0;
+  }
+  
+  .khan__quote-author-subline {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 10px auto 64px;
+  }
+  
+  .khan__book-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 48px;
+  
+  }
+  
+  .khan__book-pic {
+    width: 608px;
+    height: 620px;
+  }
+  
+  .khan__buy-link {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #2f80ed;
+  }
+  /* akhir section khan */
+  
+  /* awal section kaufman */
+  .kaufman {
+    margin: 0 auto;
+    padding: 90px 0;
+    background-color: #1f1f1f;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+  }
+  
+  .section-title_theme_dark {
+    text-align: center;
+    line-height: 69px;
+    font-size: 60px;
+    font-weight: bold;
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .section-subtitle_theme_dark {
+    text-align: center;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    width: 60%;
+    margin: 20px auto;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+  .table {
+    max-width: 1100px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .table__cell {
+    width: 250px;
+    margin-top: 60px;
+  }
+  
+  .table__cell_theme_dark {
+    width: 200px;
+    color: white;
+    margin-top: 80px;
+  }
+  
+  .table__heading {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .table__heading_theme_dark {
+    color: #fff;
+  }
+  
+  .table__text {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 20px 0 0;
+  }
+  
+  .table__text_theme_dark {
+    color: #fff;
+  }
+  
+  .kaufman__triangle {
+    position: absolute;
+    top: 0;
+    height: 660px;
+    width: 636px;
+    right: -124px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    animation: loader 20s infinite;
+  }
+  /* akhir section kaufman */
+  
+  /* awal section resources */
+  .resources {
+    margin: 100px auto 217px;
+    position: relative;
+  
+  }
+  
+  .resources__logo-zone {
+    max-width: 1100px;
+    list-style-type: none;
+    padding: 0;
+    margin: 80px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .resources__logo {
+    width: 270px;
+    height: 38px;
+  }
+  /* akhir section resources */
